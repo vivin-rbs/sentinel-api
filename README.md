@@ -128,4 +128,4 @@ A further deployment requirement is network isolation: if clients can call the u
 
 > Built SENTINEL-API, a Rust/Axum reverse-proxy gateway that authenticates client applications using server-side bearer tokens and enforces exact per-client HTTP method/path policies before forwarding requests. Added fail-closed authorization, path ambiguity checks, owner-configured upstream routing, timeout/body-size limits, and automated tests that verify denied requests do not reach the upstream.
 
-Use this description only after running the verification commands successfully. Be clear that this is a security-focused prototype, not a completed commercial security product.
+
