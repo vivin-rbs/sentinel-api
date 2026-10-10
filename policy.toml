@@ -1,0 +1,11 @@
+# Exact method + path permissions are evaluated after client authentication.
+
+[[permissions]]
+client = "demo-app"
+path = "/v1/status"
+method = "GET"
+
+[[permissions]]
+client = "billing-app"
+path = "/v1/users"
+method = "GET"

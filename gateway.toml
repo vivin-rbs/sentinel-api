@@ -1,0 +1,3 @@
+# Owner-controlled upstream destination. Client requests cannot override this URL.
+upstream_base_url = "http://127.0.0.1:9001"
+policy_file = "policy.toml"
